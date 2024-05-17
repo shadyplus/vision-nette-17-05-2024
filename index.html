@@ -1,0 +1,1574 @@
+<!DOCTYPE html>
+<html lang="" data-lt-installed="true">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<style type="text/css">:root, :host {
+  --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Solid";
+  --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Regular";
+  --fa-font-light: normal 300 1em/1 "Font Awesome 6 Light";
+  --fa-font-thin: normal 100 1em/1 "Font Awesome 6 Thin";
+  --fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-sharp-solid: normal 900 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-regular: normal 400 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-light: normal 300 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+
+svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+  overflow: visible;
+  box-sizing: content-box;
+}
+
+.svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+.svg-inline--fa.fa-2xs {
+  vertical-align: 0.1em;
+}
+.svg-inline--fa.fa-xs {
+  vertical-align: 0em;
+}
+.svg-inline--fa.fa-sm {
+  vertical-align: -0.0714285705em;
+}
+.svg-inline--fa.fa-lg {
+  vertical-align: -0.2em;
+}
+.svg-inline--fa.fa-xl {
+  vertical-align: -0.25em;
+}
+.svg-inline--fa.fa-2xl {
+  vertical-align: -0.3125em;
+}
+.svg-inline--fa.fa-pull-left {
+  margin-right: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-pull-right {
+  margin-left: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-li {
+  width: var(--fa-li-width, 2em);
+  top: 0.25em;
+}
+.svg-inline--fa.fa-fw {
+  width: var(--fa-fw-width, 1.25em);
+}
+
+.fa-layers svg.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.fa-layers-counter, .fa-layers-text {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+
+.fa-layers {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: -0.125em;
+  width: 1em;
+}
+.fa-layers svg.svg-inline--fa {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-text {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-counter {
+  background-color: var(--fa-counter-background-color, #ff253a);
+  border-radius: var(--fa-counter-border-radius, 1em);
+  box-sizing: border-box;
+  color: var(--fa-inverse, #fff);
+  line-height: var(--fa-counter-line-height, 1);
+  max-width: var(--fa-counter-max-width, 5em);
+  min-width: var(--fa-counter-min-width, 1.5em);
+  overflow: hidden;
+  padding: var(--fa-counter-padding, 0.25em 0.5em);
+  right: var(--fa-right, 0);
+  text-overflow: ellipsis;
+  top: var(--fa-top, 0);
+  -webkit-transform: scale(var(--fa-counter-scale, 0.25));
+          transform: scale(var(--fa-counter-scale, 0.25));
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-bottom-right {
+  bottom: var(--fa-bottom, 0);
+  right: var(--fa-right, 0);
+  top: auto;
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+
+.fa-layers-bottom-left {
+  bottom: var(--fa-bottom, 0);
+  left: var(--fa-left, 0);
+  right: auto;
+  top: auto;
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+.fa-layers-top-right {
+  top: var(--fa-top, 0);
+  right: var(--fa-right, 0);
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-top-left {
+  left: var(--fa-left, 0);
+  right: auto;
+  top: var(--fa-top, 0);
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+.fa-1x {
+  font-size: 1em;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-6x {
+  font-size: 6em;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+.fa-8x {
+  font-size: 8em;
+}
+
+.fa-9x {
+  font-size: 9em;
+}
+
+.fa-10x {
+  font-size: 10em;
+}
+
+.fa-2xs {
+  font-size: 0.625em;
+  line-height: 0.1em;
+  vertical-align: 0.225em;
+}
+
+.fa-xs {
+  font-size: 0.75em;
+  line-height: 0.0833333337em;
+  vertical-align: 0.125em;
+}
+
+.fa-sm {
+  font-size: 0.875em;
+  line-height: 0.0714285718em;
+  vertical-align: 0.0535714295em;
+}
+
+.fa-lg {
+  font-size: 1.25em;
+  line-height: 0.05em;
+  vertical-align: -0.075em;
+}
+
+.fa-xl {
+  font-size: 1.5em;
+  line-height: 0.0416666682em;
+  vertical-align: -0.125em;
+}
+
+.fa-2xl {
+  font-size: 2em;
+  line-height: 0.03125em;
+  vertical-align: -0.1875em;
+}
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: var(--fa-li-margin, 2.5em);
+  padding-left: 0;
+}
+.fa-ul > li {
+  position: relative;
+}
+
+.fa-li {
+  left: calc(var(--fa-li-width, 2em) * -1);
+  position: absolute;
+  text-align: center;
+  width: var(--fa-li-width, 2em);
+  line-height: inherit;
+}
+
+.fa-border {
+  border-color: var(--fa-border-color, #eee);
+  border-radius: var(--fa-border-radius, 0.1em);
+  border-style: var(--fa-border-style, solid);
+  border-width: var(--fa-border-width, 0.08em);
+  padding: var(--fa-border-padding, 0.2em 0.25em 0.15em);
+}
+
+.fa-pull-left {
+  float: left;
+  margin-right: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-pull-right {
+  float: right;
+  margin-left: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-beat {
+  -webkit-animation-name: fa-beat;
+          animation-name: fa-beat;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+          animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-bounce {
+  -webkit-animation-name: fa-bounce;
+          animation-name: fa-bounce;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+}
+
+.fa-fade {
+  -webkit-animation-name: fa-fade;
+          animation-name: fa-fade;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-beat-fade {
+  -webkit-animation-name: fa-beat-fade;
+          animation-name: fa-beat-fade;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-flip {
+  -webkit-animation-name: fa-flip;
+          animation-name: fa-flip;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+          animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-shake {
+  -webkit-animation-name: fa-shake;
+          animation-name: fa-shake;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+          animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin {
+  -webkit-animation-name: fa-spin;
+          animation-name: fa-spin;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 2s);
+          animation-duration: var(--fa-animation-duration, 2s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+          animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin-reverse {
+  --fa-animation-direction: reverse;
+}
+
+.fa-pulse,
+.fa-spin-pulse {
+  -webkit-animation-name: fa-spin;
+          animation-name: fa-spin;
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, steps(8));
+          animation-timing-function: var(--fa-animation-timing, steps(8));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fa-beat,
+.fa-bounce,
+.fa-fade,
+.fa-beat-fade,
+.fa-flip,
+.fa-pulse,
+.fa-shake,
+.fa-spin,
+.fa-spin-pulse {
+    -webkit-animation-delay: -1ms;
+            animation-delay: -1ms;
+    -webkit-animation-duration: 1ms;
+            animation-duration: 1ms;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-transition-delay: 0s;
+            transition-delay: 0s;
+    -webkit-transition-duration: 0s;
+            transition-duration: 0s;
+  }
+}
+@-webkit-keyframes fa-beat {
+  0%, 90% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  45% {
+    -webkit-transform: scale(var(--fa-beat-scale, 1.25));
+            transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+@keyframes fa-beat {
+  0%, 90% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  45% {
+    -webkit-transform: scale(var(--fa-beat-scale, 1.25));
+            transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+@-webkit-keyframes fa-bounce {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+            transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+            transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+  }
+  50% {
+    -webkit-transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+            transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+            transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+@keyframes fa-bounce {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+            transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+            transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+  }
+  50% {
+    -webkit-transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+            transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+            transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+@-webkit-keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, 0.4);
+  }
+}
+@keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, 0.4);
+  }
+}
+@-webkit-keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, 0.4);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(var(--fa-beat-fade-scale, 1.125));
+            transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+@keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, 0.4);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(var(--fa-beat-fade-scale, 1.125));
+            transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+@-webkit-keyframes fa-flip {
+  50% {
+    -webkit-transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+            transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+@keyframes fa-flip {
+  50% {
+    -webkit-transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+            transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+@-webkit-keyframes fa-shake {
+  0% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  4% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  8%, 24% {
+    -webkit-transform: rotate(-18deg);
+            transform: rotate(-18deg);
+  }
+  12%, 28% {
+    -webkit-transform: rotate(18deg);
+            transform: rotate(18deg);
+  }
+  16% {
+    -webkit-transform: rotate(-22deg);
+            transform: rotate(-22deg);
+  }
+  20% {
+    -webkit-transform: rotate(22deg);
+            transform: rotate(22deg);
+  }
+  32% {
+    -webkit-transform: rotate(-12deg);
+            transform: rotate(-12deg);
+  }
+  36% {
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
+  }
+  40%, 100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+@keyframes fa-shake {
+  0% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  4% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  8%, 24% {
+    -webkit-transform: rotate(-18deg);
+            transform: rotate(-18deg);
+  }
+  12%, 28% {
+    -webkit-transform: rotate(18deg);
+            transform: rotate(18deg);
+  }
+  16% {
+    -webkit-transform: rotate(-22deg);
+            transform: rotate(-22deg);
+  }
+  20% {
+    -webkit-transform: rotate(22deg);
+            transform: rotate(22deg);
+  }
+  32% {
+    -webkit-transform: rotate(-12deg);
+            transform: rotate(-12deg);
+  }
+  36% {
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
+  }
+  40%, 100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+.fa-rotate-90 {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.fa-rotate-180 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.fa-rotate-270 {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.fa-flip-horizontal {
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+}
+
+.fa-flip-vertical {
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1);
+}
+
+.fa-flip-both,
+.fa-flip-horizontal.fa-flip-vertical {
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1);
+}
+
+.fa-rotate-by {
+  -webkit-transform: rotate(var(--fa-rotate-angle, none));
+          transform: rotate(var(--fa-rotate-angle, none));
+}
+
+.fa-stack {
+  display: inline-block;
+  vertical-align: middle;
+  height: 2em;
+  position: relative;
+  width: 2.5em;
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: var(--fa-stack-z-index, auto);
+}
+
+.svg-inline--fa.fa-stack-1x {
+  height: 1em;
+  width: 1.25em;
+}
+.svg-inline--fa.fa-stack-2x {
+  height: 2em;
+  width: 2.5em;
+}
+
+.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}
+
+.sr-only,
+.fa-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only-focusable:not(:focus),
+.fa-sr-only-focusable:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.svg-inline--fa .fa-primary {
+  fill: var(--fa-primary-color, currentColor);
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa .fa-secondary {
+  fill: var(--fa-secondary-color, currentColor);
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-primary {
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-secondary {
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa mask .fa-primary,
+.svg-inline--fa mask .fa-secondary {
+  fill: black;
+}
+
+.fad.fa-inverse,
+.fa-duotone.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}</style><link rel="stylesheet" href="./أوميغا 3 - بيوماكس_files/main.css">
+<title>  قصة محمد في التخلص من مشاكل العيون لديه و كيف تخلص منه بكل سهولة مع منتج طبيعي جديد </title>
+<meta property="og:title" content=" قصة محمد في التخلص من مشاكل العيون لديه و كيف تخلص منه بكل سهولة مع منتج طبيعي جديد "><meta name="description" content=" قصة محمد في التخلص من مشاكل العيون لديه و كيف تخلص منه بكل سهولة مع منتج طبيعي جديد ">
+<meta name="og:description" content=" قصة محمد في التخلص من مشاكل العيون لديه و كيف تخلص منه بكل سهولة مع منتج طبيعي جديد ">
+<meta property="og:image" content="/api/file/1107">
+<meta property="og:url" content="/product/18?ver=ar"><link rel="stylesheet" href="./أوميغا 3 - بيوماكس_files/product.css">
+
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:type" content="website">
+	
+  	<style type="text/css">@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fCRc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fABc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fCBc4AMP6lbBP.woff2) format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fCxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fChc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc4AMP6lQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCRc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fABc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCBc4AMP6lbBP.woff2) format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fChc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}</style>
+	<style type="text/css">@font-face{font-family:'Material Icons';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/materialicons/v140/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');}.material-icons{font-family:'Material Icons';font-weight:normal;font-style:normal;font-size:24px;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr;-webkit-font-feature-settings:'liga';-webkit-font-smoothing:antialiased;}</style>
+	<style>html,body{margin:0}nav{font-family:sans-serif}:root{--footer-background:#c7cdd0;--footer-border:solid #195e84;--footer-border-width:10px 0px 0px 0px;--footer-text-color:#3a525f;--footer-highlight-color:#1e6c96;--footer-separator-color:#a2b6c1;--footer-paragraph-color:#3f525d}#footer{display:flex;flex-wrap:wrap;justify-content:center;align-items:flex-start;min-height:200px;padding:10px;border:var(--footer-border);border-width:var(--footer-border-width);background:var(--footer-background);font-size:16px;color:var(--footer-text-color)}#footer>div{padding:0 10px;border-left:solid 1px;border-color:var(--footer-separator-color);margin:15px 0 15px 10px}#footer>div:first-of-type{border-right:none;border-left:none;text-align:center}@media only screen and (max-width: 1000px){#footer>div:first-of-type{min-width:100%;box-sizing:border-box}#footer>div{min-width:200px;justify-content:space-between;flex:1}}#footer p{margin:0;color:var(--footer-paragraph-color)}#footer>div>div{margin-bottom:5px;color:var(--footer-highlight-color);font-weight:700}#footer a{display:block;text-decoration:none;color:var(--footer-text-color);transition:.2s;padding-left:0;padding-right:5px}#footer a:hover{text-decoration:underline;padding-left:5px;padding-right:0;color:var(--footer-highlight-color)}#footer div.logo{min-width:300px}.social{display:block!important;min-width:100%!important;border:none!important;margin:0!important;text-align:center}#footer .social a{display:inline-block;margin:20px}a.social_linkedin{background-position:0px 0px}a.social_facebook{background-position:-50px 0px}a.social_twitter{background-position:-100px 0px}#footer .djidel{display:block!important;min-width:100%!important;border:none!important;margin:30px 0 0!important;text-align:center;box-sizing:border-box}#footer .djidel a{text-align:center;font-size:10px;padding:5px 0 0}#footer .djidel a:hover{padding:0 0 5px}html,body{height:100%}body{margin:0;font-family:Roboto,Helvetica Neue,sans-serif}.loading_spinner{display:block;position:relative;width:80px;height:13px;margin:auto;padding:6px 0}.loading_spinner div{position:absolute;width:13px;height:13px;border-radius:50%;background:#fff;animation-timing-function:cubic-bezier(0,1,1,0)}.loading_spinner div:nth-child(1){left:8px;animation:loading_spinner1 .6s infinite}.loading_spinner div:nth-child(2){left:8px;animation:loading_spinner2 .6s infinite}.loading_spinner div:nth-child(3){left:32px;animation:loading_spinner2 .6s infinite}.loading_spinner div:nth-child(4){left:56px;animation:loading_spinner3 .6s infinite}@keyframes loading_spinner1{0%{transform:scale(0)}to{transform:scale(1)}}@keyframes loading_spinner3{0%{transform:scale(1)}to{transform:scale(0)}}@keyframes loading_spinner2{0%{transform:translate(0)}to{transform:translate(24px)}}:root{--warn:#f00;--note:rgb(38, 31, 143)}:root{--swiper-theme-color:#007aff}:root{--swiper-navigation-size:44px}</style><link rel="stylesheet" href="./أوميغا 3 - بيوماكس_files/styles.3bda7eb8374e4445.css" media="all" onload="this.media=&#39;all&#39;"><noscript><link rel="stylesheet" href="/s/lib/pwa/styles.3bda7eb8374e4445.css"></noscript>
+<style>[_nghost-qxv-c9]{display:block;height:30px;height:var(--menu-height);color:#333;color:var(--menu-text-color);position:relative;z-index:1000}[_nghost-qxv-c9]    >ul{background:inear-gradient(#fff,#e9e9e9);background:var(--menu-background);transition:.3s ease-out;transition:var(--menu-transition);box-shadow:0 10px 10px -10px #00000080;box-shadow:var(--menu-shadow)}@media only screen and (max-width: 700px){[_nghost-qxv-c9]    >ul{display:block;position:fixed;top:0;bottom:0;width:100%;left:100%;padding-top:50px;z-index:98;overflow:auto;box-shadow:0 0 63px inset #0001;box-shadow:var(--menu-mobile-shadow)}}@media only screen and (max-width: 700px){.open[_nghost-qxv-c9]    >ul{background:#fff;background:var(--menu-mobile-background);left:0}}.flex[_nghost-qxv-c9]    >ul{display:flex}@media only screen and (max-width: 700px){.flex[_nghost-qxv-c9]    >ul{display:block}}.sticky[_nghost-qxv-c9]    >ul{position:fixed;width:var(--menu-width);top:0}@media only screen and (max-width: 700px){.sticky[_nghost-qxv-c9]    >ul{position:fixed}}@media only screen and (max-width: 700px){[_nghost-qxv-c9]:before{content:" ";display:block;position:fixed;inset:0;background:rgba(0,0,0,0);pointer-events:none;transition:.3s ease-out;transition:var(--menu-transition);z-index:1}}@media only screen and (max-width: 700px){.open[_nghost-qxv-c9]:before{background:rgba(0,0,0,.6117647059)}}[_nghost-qxv-c9]     ul{display:block;list-style-type:none;margin:0;padding-inline-start:0px}[_nghost-qxv-c9]    >ul>li{float:left;flex:auto}@media only screen and (max-width: 700px){[_nghost-qxv-c9]    >ul>li{float:none}}[dir=rtl]   [_nghost-qxv-c9]    >ul>li{float:right}@media only screen and (max-width: 700px){[dir=rtl]   [_nghost-qxv-c9]    >ul>li{float:none}}[_nghost-qxv-c9]     .mobileMenu{display:none}@media only screen and (max-width: 700px){[_nghost-qxv-c9]     .mobileMenu{display:flex;background:inear-gradient(#fff,#e9e9e9);background:var(--menu-background);box-shadow:0 10px 10px -10px #00000080;box-shadow:var(--menu-shadow)}}.sticky[_nghost-qxv-c9]     .mobileMenu{position:fixed;width:100%;top:0}[_nghost-qxv-c9]     .mobileMenu a, [_nghost-qxv-c9]     li>a{display:block;height:30px;height:var(--menu-height);line-height:30px;line-height:var(--menu-height);text-align:center;color:#333;color:var(--menu-text-color);padding:10px;padding:var(--menu-padding);text-decoration:none;font-size:18px;font-size:var(--menu-font-size)}@media only screen and (max-width: 700px){[_nghost-qxv-c9]     li>a{text-align:initial;border-bottom:solid 1px #a2a2a2;border-bottom:var(--menu-border)}}[_nghost-qxv-c9]    >ul>li>a{position:relative;cursor:pointer}@media only screen and (min-width: 701px){[_nghost-qxv-c9]    >ul>li>a{border-right:solid 1px #a2a2a2;border-right:var(--menu-border)}}[_nghost-qxv-c9]    >ul>li>a:hover, [_nghost-qxv-c9]    >ul>li.hover>a{color:#000;color:var(--menu-text-color-hover)}@media only screen and (min-width: 701px){[_nghost-qxv-c9]    >ul>li>a:before{content:"";position:absolute;z-index:-1;left:51%;right:51%;bottom:0;background:#777;background:var(--menu-accent-color);height:3px;transition:.3s ease-out;transition:var(--menu-transition);transition-property:left,right;z-index:2}}@media only screen and (min-width: 701px){[_nghost-qxv-c9]    >ul>li>a:hover:before, [_nghost-qxv-c9]    >ul>li.hover>a:before{left:0;right:0}}@media only screen and (min-width: 701px){[dir=rtl]   [_nghost-qxv-c9]    >ul>li>a{border-right:none;border-left:solid 1px #a2a2a2;border-left:var(--menu-border)}}@media only screen and (min-width: 701px){[_nghost-qxv-c9]    >ul>li:last-of-type>a, [dir=rtl]   [_nghost-qxv-c9]    >ul>li:last-of-type>a{border:none}}[_nghost-qxv-c9]    >ul>li>ul li>a{position:relative;border-bottom:solid 1px #a2a2a2;border-bottom:var(--menu-border)}@media only screen and (min-width: 701px){[_nghost-qxv-c9]    >ul>li>ul li:last-of-type>a{border:none}}@media only screen and (min-width: 701px){[_nghost-qxv-c9]    >ul>li>ul a:before{content:"";position:absolute;z-index:-1;left:0%;right:100%;bottom:0;background:#777;background:var(--menu-accent-color);height:1px;transition:.3s ease-out;transition:var(--menu-transition);transition-property:left,right;z-index:2}}@media only screen and (min-width: 701px){[_nghost-qxv-c9]    >ul>li>ul a:hover:before{right:0%}}[_nghost-qxv-c9]    >ul>li>ul a:hover{color:#000;color:var(--menu-text-color-hover)}[_nghost-qxv-c9]    >ul>li>ul{position:absolute;opacity:0;pointer-events:none;transition:.3s ease-out;transition:var(--menu-transition);background:#e6e6e6;background:var(--menu-submenu-background);min-width:30px;min-width:var(--menu-local-width);margin-top:10px;box-shadow:0 10px 10px -10px #00000080;box-shadow:var(--menu-shadow)}@media only screen and (max-width: 700px){[_nghost-qxv-c9]    >ul>li>ul{position:initial;min-width:initial;background:initial;transition:0s;margin-top:0;border-inline-start:solid 1px #a2a2a2;border-inline-start:var(--menu-border);border-inline-start-width:10px;box-shadow:none}}@media only screen and (max-width: 700px){.open[_nghost-qxv-c9]    >ul>li>ul{opacity:1}}[_nghost-qxv-c9]    >ul>li.hover>ul{opacity:1;margin-top:0;pointer-events:initial}[_nghost-qxv-c9]     .mobileButton{display:none}@media only screen and (max-width: 700px){[_nghost-qxv-c9]     .mobileButton{display:block;position:absolute;width:30px;height:30px;padding:10px;padding:var(--menu-padding);border:none;right:0;background:none;cursor:pointer;box-sizing:content-box}}@media only screen and (max-width: 700px){[dir=rtl]   [_nghost-qxv-c9]     .mobileButton{right:initial;left:0}}@media only screen and (max-width: 700px){[_nghost-qxv-c9]     .mobileButtonClose{position:fixed;z-index:100;top:-50px;transition:.3s ease-out;transition:var(--menu-transition)}}@media only screen and (max-width: 700px){.open[_nghost-qxv-c9]     .mobileButtonClose{top:0}}@media only screen and (max-width: 700px){[_nghost-qxv-c9]     .mobileButtonOpen{z-index:100;transition:.3s ease-out;transition:var(--menu-transition)}}@media only screen and (max-width: 700px){.open[_nghost-qxv-c9]     .mobileButtonOpen{opacity:0;pointer-events:none}}[_nghost-qxv-c9]     .mobileButton span{display:block;width:30px;height:3px;border-radius:3px;background-color:#333;background-color:var(--menu-text-color);margin-bottom:5px}[_nghost-qxv-c9]     .mobileButtonClose>span:first-child{position:relative;top:0;margin-bottom:0;transform:rotate(45deg)}[_nghost-qxv-c9]     .mobileButtonClose>span:last-child{position:relative;top:-3px;margin-bottom:0;transform:rotate(-45deg)}</style><style>[_nghost-qxv-c15]{display:flex;flex-direction:column}.swiper[_ngcontent-qxv-c15]{width:100%;flex:auto;cursor:zoom-in}.swiper.thumbnails[_ngcontent-qxv-c15]{height:100px;flex:none;cursor:pointer}.swiper.thumbnails.hidden[_ngcontent-qxv-c15]{display:none}  image-gallery .swiper-slide{text-align:center}  image-gallery .swiper.thumbnails .swiper-slide{opacity:.8;transition-delay:.5s}  image-gallery .swiper.thumbnails .swiper-slide.swiper-slide-thumb-active{opacity:1}  image-gallery .thumbnails .swiper-slide img{width:100%;height:100%;object-fit:cover}</style><style>[_nghost-qxv-c8]{z-index:100;position:fixed;right:10px;bottom:-100px;box-sizing:border-box;width:50px;height:50px;padding-top:13px;border-radius:25px;background:#222;background:var(--gotop-background);box-shadow:0 1px 5px #000;text-align:center;cursor:pointer;transition:.3s;opacity:0}[_nghost-qxv-c8]   svg[_ngcontent-qxv-c8]{fill:#fff;fill:var(--gotop-color)}[_nghost-qxv-c8]:hover{padding-top:8px}.show[_nghost-qxv-c8]{bottom:10px;opacity:1}@media only screen and (max-width: 700px){[_nghost-qxv-c8]{width:40px;height:40px;padding-top:7px}}</style><meta http-equiv="origin-trial" content="A+xK4jmZTgh1KBVry/UZKUE3h6Dr9HPPioFS4KNCzify+KEoOii7z/goKS2zgbAOwhpZ1GZllpdz7XviivJM9gcAAACFeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiQXR0cmlidXRpb25SZXBvcnRpbmdDcm9zc0FwcFdlYiIsImV4cGlyeSI6MTcwNzI2Mzk5OSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+
+</head>
+<body dir="rtl">
+
+  <div id="preloader" style="position: fixed; z-index: 1000; width: 100%; height: 100%; transition-duration: 0.1s; top: -100%; opacity: 0; pointer-events: none;"><!--
+  <div style="color:#fff; width: 100%; height: 100%; display: flex; justify-content: center; flex-direction: column; background: radial-gradient(#d5d9ff, #8f98ff); background-color: #d5d9ff;">
+  <div style="flex:2;"></div>
+<center><img src="/s/v2/img/logo.png" width="200" height="50">
+<h1 style="opacity: 0; position: absolute;">Biomax</h1></center>
+
+<div class="loading_spinner">
+  <div></div>
+<div></div>
+<div></div>
+<div></div></div>
+
+<div style="flex:2;"></div></div>--><!-- Google Tag Manager (noscript) -->
+
+<!-- End Google Tag Manager (noscript) -->
+</div>
+<web-page style="" _nghost-qxv-c7="" ng-version="14.3.0">
+  <div _ngcontent-qxv-c7="" id="helper_init">
+	
+  <div id="header">
+    <div class="container">
+    <div>
+	<a href="#forma"  rel="noopener" aria-label="Linkedin"><icon class="ng-fa-icon" type="fab,linkedin"><svg role="img" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" class="svg-inline--fa fa-linkedin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg></icon></a>
+	<a href="#forma"  rel="noopener" aria-label="Facebook"><icon class="ng-fa-icon" type="fab,facebook-square"><svg role="img" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="square-facebook" class="svg-inline--fa fa-square-facebook" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"></path></svg></icon></a>
+	<a href="#forma"  rel="noopener" aria-label="Instagram"><icon class="ng-fa-icon" type="fab,instagram"><svg role="img" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg></icon></a>
+	<span class="flex"> </span>
+	<!-- <a href="tel:+213982420323" aria-label="Call"><span class="hide_mobile">+213982420323</span>
+    <icon class="ng-fa-icon" type="fas,phone"><svg role="img" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone" class="svg-inline--fa fa-phone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"></path></svg></icon></a> -->
+</div></div></div>
+	
+<div id="menu"><nav _nghost-qxv-c9="" class="flex sticky" style="--menu-width: 1151.2000732421875px;"><button disabled="disabled" class="mobileButton mobileButtonClose"><span></span><span></span></button>
+	<ul>
+		<li class="logo"><a href="#forma"> مشاكل العيون </a></li>
+		
+    <li>
+			<a href="#forma">الشركة</a>
+		</li>
+		
+		<li style="flex:10"></li>
+		<li style="--menu-local-width: 106.6624984741211px;">
+			<a href="https://biomax.dz/contact">الاتصال</a>
+			<ul>
+				
+        <li><a href="#forma">معلومات الاتصال</a></li>
+				
+        <li><a href="#forma">اتصل بنا عبر الإنترنت</a></li>
+				
+       
+			</ul>
+		</li>
+		<li class="lang" style="--menu-local-width: 68.38750457763672px;">
+			<a><icon class="ng-fa-icon" type="fas,globe"><svg role="img" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="globe" class="svg-inline--fa fa-globe" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64H348.7c2.2 20.4 3.3 41.8 3.3 64zm28.8-64H503.9c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0H18.6C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192H131.2c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6H344.3c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352H135.3zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6H493.4z"></path></svg></icon> <span class="menu_only">اللغة</span></a>
+			<ul>
+				
+        <li><a href="#forma">العربية</a></li>
+				<!--
+          <li><a href="?ver=en">English</a></li>-->
+				
+        
+			</ul>
+		</li>
+	</ul>
+
+  <div class="mobileMenu" style=""><a href="#forma"> كيف الصحة اليوم ؟</a><button class="mobileButton mobileButtonOpen"><span></span><span></span><span></span></button></div></nav></div>
+	
+<div id="content">
+    <div class="page-title">
+	<h1>  بعد اليوم لن يكون هناك المزيد من مشاكل العيون  .
+  </h1>
+</div>
+
+<div class="container">
+  <div>
+<p class="product_brief"> 
+  تعد مشاكل العيون من القضايا الصحية الشائعة التي تؤثر على الكثير من الأشخاص في جميع أنحاء العالم. قد تكون هذه المشاكل نتيجة لأسباب مختلفة مثل العوامل الوراثية والعوامل البيئية و مشاكل العيون. في هذا المقال، سنتناول اليوم قصة أحد الأشخاص اللذين عانوا من مشاكل العيون و كيف تخلص منها بكل سهولة مع مكمل غذائي جديد طبيعي 100 % .
+
+</p>
+<div style="text-align: center;">
+  <img style="max-width: 100%; width: 500px;border-radius: 30px; margin: auto;
+  border: 3px solid;" class="swiper-lazy swiper-lazy-loaded" src="./أوميغا 3 - بيوماكس_files/main.jpg">
+ 
+</div>
+
+  
+  <h2>اليوم ننشر لكم قصة محمد و معاناته مع مشاكل العيون و كيف تخلص منها تماماً :  </h2>
+  <div>
+    <ul style="text-align: right;">
+    <li  style="color: red; font-weight: 600;"> من هو محمد ؟ 
+      <br></li>
+      <p>
+        محمد هو  رجل بسيط يعمل كلحام في إحدى القرى الصغيرة في قلب الصحراء. كان محمد يستيقظ كل صباحأ قبل الفجر ليبدأ يومه الشاق تحت الشمس الحارقة. كانت عائلته تعتمد عليه كليًا، وكان هو السند والأمل الوحيد لهم. لكن،بعد سنوات من العمل الشاق والتعرض المستمر للضوء الساطع أثناء عمله ، بدأ بصره يتدهور تدريجياً. أصبح يرى العالم من حوله ضبابياً حتى وصل إلى مرحلة قريبة من العمى الكامل.
+
+
+      </p>
+    <li  style="color: red; font-weight: 600;"> كيف وصل محمد إلى اليأس : 
+      <br></li>
+      <p>
+        وفي حالة من اليأس، قرر محمد أن يبحث عن طريقة  تنقذه و تخلصه  من هذا الكابوس. باع سيارته، وحصل على قرض ليتوجه إلى الأطباء في تركيا، حيث أمل أن يجد الحل  المناسب. أجرى هناك عمليات جراحية عديدة، ولكنها لم تحقق أي نتائج. اتضح لاحقًا أن المختصين  في العيادات التركية قد استغلوا حالته لكسب المال، وأوهموه  بوعود زائفة. عاد محمد إلى منزله محطم الأمل، فاقداً   إيمانه بمستقبل أفضل.
+
+
+      </p>
+      <h3>
+
+        كان هذا شكل عيون محمد 
+      </h3>
+      <div style="text-align: center;">
+        <img style="max-width: 100%; width: 500px;border-radius: 30px; margin: auto;
+        border: 3px solid;" class="swiper-lazy swiper-lazy-loaded" src="./أوميغا 3 - بيوماكس_files/strach.jpg">
+        <img style="max-width: 100%; width: 500px;border-radius: 30px; margin: auto;
+        border: 3px solid;" class="swiper-lazy swiper-lazy-loaded" src="./أوميغا 3 - بيوماكس_files/glaucoma5.jpg">
+      </div>
+
+    <li  style="color: red; font-weight: 600;">ماذا بعد العودة من تركيا ؟ 
+      <br></li>
+      <p>
+        بعد أشهر من العودة، أصبح محمد معتاداً على العيش في شبه الظلام بسبب ان عيونه أصبحت أسوأ بعد إجرائه العمليات في تركيا ،أصبح  يعتمد على مساعدة الأصدقاء والعائلة في معظم أمور حياته. وفي يومٍ من الأيام، زاره صديقه القديم أيمن، الذي كان دائمًا مؤمنًا بالتقنيات والابتكارات الجديدة. أخبر أيمن محمد عن اختراع جديد - مكمل غذائي يسمى vision Nette، الذي تم تصميمه خصيصًا لأشخاص يعانون من مشاكل في الرؤية مثله.
+
+      </p>
+
+      <div style="text-align: center;">
+        <img style="max-width: 100%; width: 500px;border-radius: 30px; margin: auto;
+        border: 3px solid;" class="swiper-lazy swiper-lazy-loaded" src="./أوميغا 3 - بيوماكس_files/strach2.jpg">
+        <p style="text-align: center;">هذا شكل عيون محمد عن قرب بعد عودته من تركيا </p>  
+      </div>
+    <li  style="color: red; font-weight: 600;"> كان الشك بداخل محمد : 
+      <br></li>
+      <p>
+        كان محمد متشككاً في البداية، فقد جرب العديد من المنتجات  من قبل ولم تساعده. ولكنه، لعدم رغبته في الإساءة إلى صديقه، قرر أن يمنح المكمل الغذائي فرصة.
+
+
+      </p>
+    <li  style="color: red; font-weight: 600;"> نتيجة إستخدام محمد للمكمل الغذائي vision Nette :
+      <br></li>
+      <p>
+        مرت الأسابيع، وبدأ محمد يلاحظ تغيرات طفيفة. شعر أن رؤيته تتحسن قليلاً وأن عينيه أقل تعباً بعد أيام طويلة. لم يكن هذا التحسن فورياً، لكن مع مرور الوقت، بدأ يشعر بفرق كبير. عاد الأمل إلى قلبه، وبدأت حياته تتغير تدريجياً. أصبح أقل اعتمادًا على الآخرين وبدأ يرى مستقبلاً أفضل.
+
+
+
+
+
+      </p>
+      <p>
+        وهكذا، تحولت قصة محمد من ظلام اليأس إلى نور الأمل، ليصبح رمزًا لكل من يعاني من مشاكل في الرؤية. لقد تعلم أن حتى أصعب التجارب يمكن التغلب عليها بالإيمان والعمل الجاد.
+
+
+
+
+
+      </p>
+    </ul>
+
+    <style>h2,h1,h3,p,li,ul{text-align: right;}</style>
+
+
+  </div>
+    <h2 style="text-align: center;"><img style="border-radius: 30px;
+      border: 3px solid;" src="./أوميغا 3 - بيوماكس_files/halal oculus.png"><br></h2>
+      <hr>
+      <h2> قام أحد المراسلين بالذهاب و التحدث مع محمد ليعرف عن تجربته عن المكمل الغذائي <a href="#forma" style="text-decoration: none;">vision Nette</a> و سوف ننشر لكم تفاصيل المقابلة معه هنا :  </h2>
+      <h4>
+        <b style="color: red;">
+          المذيع: 
+        </b>
+        أهلاً و سهلاً بك محمد, نشكرك على قبولك اللقاء معنا و نتمنى ان تكون بخير الأن .
+      </h4>
+      <h4>
+        <b style="color: black;">
+          محمد: 
+        </b>
+        أهلاً وسهلاً، شكراً لكم على استضافتي. أنا بخير تماماً و شكراً لكم على إستضافتي معكم . 
+      </h4>
+      <h4>
+        <b style="color: red;">
+          المذيع: 
+        </b>
+        محمد، قصتك ألهمت الكثيرين. هل يمكنك أن تخبرنا كيف بدأت معاناتك مع ضعف البصر؟
+      </h4>
+      <h4>
+        <b style="color: black;">
+          محمد: 
+        </b>
+        بالطبع. لقد كنت أعمل كحام طوال حياتي، وكان عملي يتطلب التعرض المستمر للضوء الساطع. مع مرور السنوات، بدأت أشعر بأن بصري يتدهور تدريجياً. كان الأمر صعبًا جدًا لأنني كنت أعيل عائلتي وكانوا يعتمدون عليّ بشكل كامل.
+      </h4>
+      <h4>
+        <b style="color: red;">
+          المذيع: 
+        </b>
+        يبدو أنها كانت تجربة مؤلمة جداً. ماذا فعلت عندما بدأت تشعر أن بصرك يتدهور بشكل ملحوظ؟
+      </h4>
+      <h4>
+        <b style="color: black;">
+          محمد: 
+        </b>
+        عندما شعرت أنني على وشك العمى الكامل، قررت البحث عن حل . بعت سيارتي وحصلت على قرض للسفر إلى تركيا، حيث سمعت عن أطباء قد يكونون قادرين على مساعدتي. لكن للأسف، لم تحقق العمليات أي نتائج. في الواقع، تبين أن الأطباء في تلك العيادة استغلوني فقط لأخذ المال.
+      </h4>
+      <h4>
+        <b style="color: red;">
+          المذيع: 
+        </b>
+        يا للأسف، تلك كانت ضربة قاسية. كيف تأقلمت مع الوضع بعد عودتك إلى الوطن؟
+      </h4>
+      <h4>
+        <b style="color: black;">
+          محمد: 
+        </b>
+        بعد العودة، كنت محطم الأمل. اعتدت على العيش في شبه الظلام، معتمداً على مساعدة الأصدقاء والعائلة في كل شيء تقريباً. كان الأمر محبطاً للغاية، وكنت أشعر بالعجز التام.
+      </h4>
+      <h4>
+        <b style="color: red;">
+          المذيع: 
+        </b>
+        لكن الأمور تغيرت لاحقاً، أليس كذلك؟ كيف تعرفت على المكمل الغذائي  <a href="#forma" style="text-decoration: none;">vision Nette</a> ؟
+      </h4>
+      <h4>
+        <b style="color: black;">
+          محمد: 
+        </b>
+        نعم، الأمور تغيرت بفضل صديقي القديم أيمن. كان دائماً مؤمناً بالتقنيات الجديدة وأخبرني عن مكمل غذائي جديد يسمى <a href="#forma" style="text-decoration: none;">vision Nette</a> . في البداية كنت متشككاً، فقد جربت العديد من المنتجات  من قبل ولم تنجح. لكن، لعدم رغبتي في الإساءة لصديقي، قررت أن أجربه.
+      </h4>
+      <h4>
+        <b style="color: red;">
+          المذيع: 
+        </b>
+        وكيف كانت تجربتك مع <a href="#forma" style="text-decoration: none;">vision Nette</a> ؟
+      </h4>
+      <h4>
+        <b style="color: black;">
+          محمد: 
+        </b>
+        في البداية، لم ألاحظ الكثير من التغيير. لكن بعد عدة أسابيع، بدأت ألاحظ تحسناً طفيفاً في رؤيتي وأصبحت عيني أقل تعباً بعد أيام طويلة. ومع مرور الوقت، بدأ التحسن يصبح أكثر وضوحاً. شعرت بأن الأمل يعود إلى حياتي مجدداً.
+      </h4>
+      <h4>
+        <b style="color: red;">
+          المذيع: 
+        </b>
+        هذا رائع! هل يمكنك أن تخبرنا كيف أثر ذلك على حياتك اليومية؟
+      </h4>
+      <h4>
+        <b style="color: black;">
+          محمد: 
+        </b>
+        بالتأكيد. مع تحسن بصري، بدأت أستعيد استقلاليتي تدريجياً. أصبحت أقل اعتماداً على مساعدة الآخرين وبدأت أرى مستقبلاً أفضل. أصبحت أكثر نشاطاً وبدأت أشارك قصتي مع الآخرين، موصياً بـ <a href="#forma" style="text-decoration: none;">vision Nette</a> لكل من يعاني من مشاكل في الرؤية.
+      </h4>
+     
+      <h4>
+        <b style="color: red;">
+          المذيع: 
+        </b>
+       محمد هل يمكنك ان تشرح لنا ما هي المكونات التي يتكون منها هذا المكمل الغذائي ؟ 
+      </h4>
+      <h4>
+        <b style="color: black;">
+          محمد: 
+        </b>
+        نعم بالطبع لقد قرأت الكثير عنه بعدما بدأت في إستخدامه و عرفت عنه الكثير و مكوناته هي مكونات طبيعية 100% و ليس بها أي إضافات كيميائية و ربما هذا ما أدى بي إلى هذه النتيجة الرائعة ! و سوف أقول لك الأن المكونات و أهمية كل مكون منهم : 
+
+      </h4>
+      <ul>
+        <li style="color: red; font-weight: 600;">
+          مستخلص اللوتين	
+        </li>
+        <p>
+          مستخلص اللوتين يمكن أن يساعد في تحسين صحة العين، حيث يقوم بحماية العين من الأضرار التي يمكن أن تسببها الأشعة فوق البنفسجية والتي يمكن أن تؤدي إلى مشاكل مثل المياه البيضاء والماكولار ديجنيريشن.
+    
+        </p>
+        <hr>
+    
+        <br>
+        <li style="color: red; font-weight: 600;">
+          السيليكا الغروية	
+        </li>
+        <p>
+          السيليكا الغروية هي عنصر مهم لصحة الجسم، حيث تشكل جزءًا من العديد من الأنسجة في الجسم مثل العظام والأنسجة الضامة والغضاريف. كما أنها تعتبر مضاداً للأكسدة الطبيعي وتساعد في تقوية الجهاز المناعي والحفاظ على صحة الجلد والشعر والأظافر.
+    
+        </p><hr>
+        <br>
+        <li style="color: red; font-weight: 600;">
+          ستيرات المغنيسيوم	
+        </li>
+        <p>
+          أن استهلاك الأطعمة الغنية بالمغنيسيوم يمكن أن يساعد في تحسين صحة العين، حيث يمكن الحصول على المغنيسيوم من الخضروات الورقية الخضراء والمكسرات والحبوب والبقوليات والأسماك واللحوم او عن طريق تناوله في شكل مكمل غذائي     .
+    
+        </p><hr>
+        
+        
+      
+      
+      </ul>
+
+      <h4>
+        <b style="color: red;">
+          المذيع: 
+        </b>
+       هل يمكنك أن تشرح للناس كيف قمت بإستخدام المكمل الغذائي vision Nette ؟  
+      </h4>
+      <h4>
+        <b style="color: black;">
+          محمد: 
+        </b>
+        بالطبع. إن إستخدامه سهل جداً : يجب تناول حبة واحدة يومياً مع كوب كبير من الماء مع وجبات الطعام .
+
+
+      </h4>
+
+      <h4>
+        <b style="color: red;">
+          المذيع: 
+        </b>
+        شكراً لك، محمد، على مشاركة قصتك الملهمة معنا. هل لديك رسالة تود توجيهها لمن يعاني من مشاكل في الرؤية ويشعر باليأس؟
+      </h4>
+      <h4>
+        <b style="color: black;">
+          محمد: 
+        </b>
+        نعم، أود أن أقول لهم ألا يفقدوا الأمل. حتى في أصعب اللحظات، هناك دائماً فرصة لتحسين الوضع. يجب أن يؤمنوا بأنفسهم ويستمروا في البحث عن الحلول. vision Nette كان بالنسبة لي رمزاً للأمل والتغيير، وربما يكون كذلك للآخرين أيضاً.
+      </h4>
+
+
+    
+     
+      
+     
+    
+      <hr>
+      <h2> تتعرض العيون للعديد من المشاكل التي تؤثر على نظرنا وصحتها العامة. قد تكون هذه المشاكل مزعجة ومؤلمة، وتتطلب حلاً فوريًا للتخلص منها. في هذا المقال.</h2>
+     
+<div>
+  <h3>
+    سوف نعرفكم اليوم على الطبيب الشهير  Daniel Lorenzo Parra / طبيب عيون و خبير بمشاكل العيون 
+  </h3>
+  <div style="text-align: center;">
+    <img style="max-width: 100%;
+    width: 500px;
+    border-radius: 30px;
+    border: 3px solid #035d48;" src="./أوميغا 3 - بيوماكس_files/doc2.jpg" alt="">
+  </div>
+  <p>
+    من المعروف عن الطبيب دانييل  انه يفضل الطرق الطبيعية في التخلص من المشاكل الصحية و ليست الطرق الكيميائية . لذا اليوم سوف نوضح لكم طريقته في التعامل و التخلص من مشاكل العيون بطريقة طبيعية : 
+  </p>
+  <p>
+    يقول الطبيب دانييل  انه إذا تم خلط بعض المكونات الطبيعية مع بعضها فسوف تتكون وصفة طبيعية 100% للتخلص من مشاكل العيون و حتى يمكنكم عملها بالمنزل إذا توفرت المكونات 
+  </p>
+  <p>
+    و هنا سوف نسرد لكم المكونات التي نصح بها الطبيب و فوائد كل مكون منهم 
+  </p>
+  <ul>
+    <li style="color: red; font-weight: 600;">
+      مستخلص اللوتين	
+    </li>
+    <p>
+      مستخلص اللوتين يمكن أن يساعد في تحسين صحة العين، حيث يقوم بحماية العين من الأضرار التي يمكن أن تسببها الأشعة فوق البنفسجية والتي يمكن أن تؤدي إلى مشاكل مثل المياه البيضاء والماكولار ديجنيريشن.
+
+    </p>
+    <hr>
+
+    <br>
+    <li style="color: red; font-weight: 600;">
+      السيليكا الغروية	
+    </li>
+    <p>
+      السيليكا الغروية هي عنصر مهم لصحة الجسم، حيث تشكل جزءًا من العديد من الأنسجة في الجسم مثل العظام والأنسجة الضامة والغضاريف. كما أنها تعتبر مضاداً للأكسدة الطبيعي وتساعد في تقوية الجهاز المناعي والحفاظ على صحة الجلد والشعر والأظافر.
+
+    </p><hr>
+    <br>
+    <li style="color: red; font-weight: 600;">
+      ستيرات المغنيسيوم	
+    </li>
+    <p>
+      أن استهلاك الأطعمة الغنية بالمغنيسيوم يمكن أن يساعد في تحسين صحة العين، حيث يمكن الحصول على المغنيسيوم من الخضروات الورقية الخضراء والمكسرات والحبوب والبقوليات والأسماك واللحوم او عن طريق تناوله في شكل مكمل غذائي     .
+
+    </p><hr>
+    
+    
+  
+  
+  </ul>
+</div>
+ 
+  
+  
+<h2>رأي  الطبيب الإسباني العالمي Daniel Lorenzo Parra في المكمل الغذائي <a href="#forma" style="text-decoration: none;">vision Nette</a> :
+</h2>
+<div style="text-align: center;">
+  <img style="max-width: 100%; width: 500px;border-radius: 30px;
+  border: 3px solid #035d48;" src="./أوميغا 3 - بيوماكس_files/doc.jpg" alt="">
+
+</div>
+<p>
+  <b>
+    " كل ما أستطيع أن انصحكم به هو هو إستخدام المكمل الغذائي المعجزة <a href="#forma" style="text-decoration: none;">vision Nette</a> فهو  حاز على إعجابي شخصياً و إعجاب كل مرضاي اللذين إستخدموه و كانت نتائجه معهم رائعه و أنصح دائماً به المرضى و أيضاً حتى إستخدامه للوقاية من مشاكل العيون مستقبلاً . "
+
+  </b>
+</p>
+<h3 style="text-align: center;">
+  اليوم جئنا لكم بهذا المنتج إلى <a href="" style="text-decoration: none;"> الجزائر 
+
+  </a>
+     
+  <a href="#forma" style="text-decoration: none;">vision Nette</a> و هو يتم تصنيعه الأن في الجزائر و مكوناته تم إستيرادها من دول اوروبية نظراً لندارة وجودها في الجزائر.
+
+
+</h3>
+<div style="text-align: center;">
+  <img style="max-width: 100%; width: 500px;border-radius: 30px;
+  border: 3px solid #035d48;" src="./أوميغا 3 - بيوماكس_files/halal oculus.png" alt="">
+
+</div>
+
+<h4>
+  فوائد <a href="#forma" style="text-decoration: none;">vision Nette</a> :
+</h4>
+<ul>
+  <li>
+    يساعد في القضاء على قصر النظر و طول النظر
+
+  </li>
+  <li>
+    يساعد على التخلص من ألام العديد من المشاكل مثل : التهاب الملتحمة - الزرق (الجلوكوما): - تهيج العيون - جفاف العين
+
+  </li>
+  <li>
+    دعم صحة العين
+
+  </li>
+  <li>
+    تحسين حدة البصر بمضادات الأكسدة والمغذيات الوقائية مثل اللوتين
+
+  </li>
+  <li>
+    بالإضافة إلى ذلك ، يساعد <a href="#forma" style="text-decoration: none;">vision Nette</a> في مكافحة إجهاد العين وإبطاء تطور التنكس البقعي المرتبط بالعمر.
+
+  </li>
+  <li>
+    التخلص من إلتهاب العيون و ألمها المزعج
+
+  </li>
+</ul>
+<ul>
+  <li>
+    التخلص من الصداع الدائم نتيجة مشاكل العيون
+
+  </li>
+  <li>
+    المساعدة على التخلص من إعتام عدسة العين (الكتاركت)
+
+  </li>
+</ul>
+<hr>
+
+<h3>
+  كيف تتمكنوا من شراء <a href="#forma" style="text-decoration: none;">vision Nette</a> في <a href="#forma" style="text-decoration: none; font-weight: 800;">الجزائر</a>  بالخطوات
+ 
+</h3>
+<ol>
+  <li>
+    إملأ نموذج الطلب بالأسفل .
+
+  </li>
+  <li>
+    سوف يتواصل معك مختص للرد على كل أسئلتك و تاكيد عنوان التوصيل معك
+
+  </li>
+  <li>
+    ليس عليك دفع أي شيء مقدماً و الدفع فقط عند الإستلام
+
+  </li>
+</ol>
+<h3 style="text-align: center;">
+  تخفيض <span style="color: red;"> 65%</span> !عند شرائك المنتج في الجزائر اليوم  <span style="color: red;">
+    <script type="text/javascript">
+      d = new Date(); p = new Date(d.getTime() -  0*86400000);
+      monthA =  '01,02,03,04,05,06,07,08,09,10,11,12'.split(',');
+      var w = p.getDate();
+      document.write(p.getDate() + '.' + monthA[p.getMonth()] +'.'+ p.getFullYear());
+  </script>
+  </span>!
+</h3>
+<div style="text-align: center;">
+  <div style="padding: 10px; border: 3px solid ; border-radius: 30px;text-align: center;max-width: fit-content;
+  margin: auto;">
+
+
+    <h3 style="text-align: center;">
+      نموذج الطلب الرسمي 
+    </h3>
+    <div id="forma" style="text-align: center;">
+      
+      <img style="max-width: 100%; width: 300px;" src="./أوميغا 3 - بيوماكس_files/halal oculus.png" alt="">
+    
+    </div>
+      <h3 style="text-align: center;">
+        السعر قبل التخفيض : <span style="text-decoration: line-through;">19000 </span>DZD
+      </h3>
+      <h3 style="text-align: center;">
+        السعر بعد التخفيض : <span class="glow" style="font-weight: 700;
+        font-size: larger;">5990</span> DZD
+      </h3>
+      <p style="text-align: center;">
+        عند شرائك دورة <a href="#forma" style="color: green; font-weight: 500;">vision Nette</a>
+      </p>
+      
+  <div class="footer-dev" ><span class="wpcf7-form-control-wrap" data-name="your-name">
+    <input  style="max-width: 87%;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;"  class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="الاسم" value="" type="text" name="your-name"></span>
+    </div>
+  <div class="footer-dev" style="text-align: center;"><span class="wpcf7-form-control-wrap" data-name="tel">
+    <input style="max-width: 87%;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px; text-align: left; direction: ltr;" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="رقم الهاتف " value=""  name="tel"></span>
+    <br>
+    <input  class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" style="font-size: larger;
+    border-radius: 30px;background: #0c8040;
+    color: white;
+    font-family: 'Tajawal';
+    padding: 7px;
+    outline: none;
+    border: 1px solid #0c8040;" value="إتمام الطلب ">
+  </div>
+  
+        </div>
+        <section class="section section-reviews">
+          <div class="container"> <!----> <div class="reviews-body">
+            <div class="add-reviews">
+            <h3>مراجعة الزبناء</h3> 
+           
+          </div> 
+          <!-- comments -->
+          <div class=vk-container>
+            <div class=vk-header>
+                <div class=vk-logo></div>
+                <div class=vk-header-text>
+                    <span class=comment-count>194 تعليق</span>
+                </div>
+            </div>
+            <div class=commit>
+                <div class=commit-text>
+                    <div class=photo><img style="border-radius: 50%;
+    border: 3px solid #0c8040;
+    max-width: 100%;
+    width: 79px;" src="./img/commit_01.jpg" class=photo-people ></div>
+                    <div class=com-txt><b> سناء محمد</b>
+                        <br>
+                        <p  style=" margin-top: 10px;margin-bottom: 15px; margin-top: 0; margin-bottom: 0;  margin-top: 5px;
+margin-bottom: 23px;
+padding-right: 29px;" id="comm">
+Je ne vois pas bien de mon œil gauche. J'ai aussi un astigmatisme progressif. J'ai peur de devenir aveugle…
+
+
+
+                        </p></div>
+                        <hr>
+                    <div class=clear></div>
+                </div>
+                <div class=commit-text>
+                    <div class=photo><img style="border-radius: 50%;
+    border: 3px solid #0c8040;
+    max-width: 100%;
+    width: 79px;" src="./img/commit_02.jpg" class=photo-people></div>
+                    <div class=com-txt><b>جميلة  </b>
+                        <br><p style="  margin-top: 0; margin-bottom: 0;  margin-top: 5px;
+margin-bottom: 23px;
+padding-right: 29px;" id="comm">
+Il existe actuellement de nombreux compléments alimentaires naturels contrefaits. Dites-moi où obtenir l'original vision Nette ?</p>
+                       </div>
+                       <hr>
+                    <div class=clear></div>
+                </div>
+                <div class=commit-text>
+                    <div class=photo><img style="border-radius: 50%;
+    border: 3px solid #0c8040;
+    max-width: 100%;
+    width: 79px;" src="./img/commit_03.jpg" class=photo-people ></div>
+                    <div class=com-txt><b>عبد الحميد</b>
+                        <br><p style="  margin-top: 0; margin-bottom: 0;  margin-top: 5px;
+margin-bottom: 23px;
+padding-right: 29px;" id="comm">
+J'ai guéri du glaucome en deux semaines ! Étonnamment, mes yeux peuvent à nouveau voir parfaitement.</p>
+                        <img style="max-width: 320px" src="./img/comm5.jpg" alt="">
+
+                        <hr>
+                    </div>
+                    <div class=commit-text>
+                        <div class=photo><img style="border-radius: 50%;
+    border: 3px solid #0c8040;
+    max-width: 100%;
+    width: 79px;" src="./img/commit_04.jpg" class=photo-people ></div>
+                        <div class=com-txt><b>أروى</b>
+                            <br><p style="  margin-top: 0; margin-bottom: 0;  margin-top: 5px;
+margin-bottom: 23px;
+padding-right: 29px;" id="comm">
+Acheté vision Nette à la pharmacie. Je l'utilise depuis 5 jours, ça n'aide pas, ma vision n'est pas restaurée !
+
+</p></div>
+                            <hr>
+
+                    </div>
+                    
+                    <div class=commit-text>
+                        <div class=photo><img style="border-radius: 50%;
+    border: 3px solid #0c8040;
+    max-width: 100%;
+    width: 79px;" src="./img/commit_07.jpg" class=photo-people ></div>
+                        <div class=com-txt><b>محمد  </b>
+                            <br><p style="  margin-top: 0; margin-bottom: 0;  margin-top: 5px;
+margin-bottom: 23px;
+padding-right: 29px;" id="comm">
+Je ne peux pas décrire à quel point je suis heureux ! Merci beaucoup! Maintenant, mes yeux sont à nouveau en bonne santé !
+                           </div>
+                           <img style="max-width: 320px" src="./img/comm1.jpg" alt="">
+                           <hr>
+                          </div>
+                    <div class=commit-text>
+                        <div class=photo><img style="border-radius: 50%;
+    border: 3px solid #0c8040;
+    max-width: 100%;
+    width: 79px;" src="./img/commit_06.jpg" class=photo-people ></div>
+                        <div class=com-txt><b>أنور</b>
+                            <br><p style="  margin-top: 0; margin-bottom: 0;  margin-top: 5px;
+margin-bottom: 23px;
+padding-right: 29px;" id="comm">
+Mon œil droit ne pouvait presque rien voir, sans l'aide de vision Nette, il n'y aurait aucune chance…
+
+</div>
+                        <hr>
+                      </div>
+                    <div class=commit-text>
+                        <div class=photo><img style="border-radius: 50%;
+    border: 3px solid #0c8040;
+    max-width: 100%;
+    width: 79px;" src="./img/commit_08.jpg" class=photo-people ></div>
+                        <div class=com-txt><b>سميرة</b>
+                            <br><p style="  margin-top: 0; margin-bottom: 0;  margin-top: 5px;
+margin-bottom: 23px;
+padding-right: 29px;" id="comm">
+Ma vue s'est considérablement détériorée au cours de la dernière année en raison du travail à l'ordinateur... Ni les lentilles spéciales ni les pilules pour les yeux ne m'ont aidé. Je pensais que j'allais complètement perdre la vue jusqu'à ce que j'apprenne l'existence de vision Nette. Avec son aide, mon amie a retrouvé sa vision de 90%, elle a décidé de l'essayer et n'a absolument aucun regret !
+
+<br>
+                            </div>
+                            <hr>
+                          </div>
+                    <div class=commit-text>
+                        <div class=photo><img style="border-radius: 50%;
+    border: 3px solid #0c8040;
+    max-width: 100%;
+    width: 79px;" src="./img/commit_09.jpg" class=photo-people ></div>
+                        <div class=com-txt><b>ياسين</b>
+                            <br><p style="  margin-top: 0; margin-bottom: 0;  margin-top: 5px;
+margin-bottom: 23px;
+padding-right: 29px;" id="comm">
+Ce complément alimentaire naturel fonctionne vraiment ! J'ai également commandé sur ce site sans prépaiement. La commande est arrivée en 3-4 jours. Ne retardez, sinon il sera peut-être trop tard !
+
+
+                            </p>
+                            <img style="max-width: 320px" src="./img/comm3.jpg" alt="">
+                          </div>
+                            <hr>
+                          </div>
+                    <div class=commit-text>
+                        <div class=photo><img style="border-radius: 50%;
+    border: 3px solid #0c8040;
+    max-width: 100%;
+    width: 79px;" src="./img/commit_10.jpg" class=photo-people ></div>
+                        <div class=com-txt><b>صلاح</b>
+                            <br><p style="  margin-top: 0; margin-bottom: 0;  margin-top: 5px;
+margin-bottom: 23px;
+padding-right: 29px;" id="comm">
+C'est bien que nous ayons des enfants aussi intelligents ! Je lui souhaite santé et bonheur !
+
+<hr>                                </div>
+                    <div class=commit-text>
+                        <div class=photo><img style="border-radius: 50%;
+    border: 3px solid #0c8040;
+    max-width: 100%;
+    width: 79px;" src="./img/commit_11.jpg" class=photo-people ></div>
+                        <div class=com-txt><b>
+                          آيات</b>
+                            <br><p style="  margin-top: 0; margin-bottom: 0;  margin-top: 5px;
+margin-bottom: 23px;
+padding-right: 29px;" id="comm">
+Je ne pensais pas que vision Nette m'aiderait, j'ai donc subi une opération il y a un mois. Mais quand j'ai commencé à l'utiliser, mon ophtalmologiste a été choqué par les résultats. Presque plus de cataractes. Il m'a demandé ce que je prenais et m'a dit qu'il n'avait jamais entendu parler de ce complément alimentaire naturel, sinon il me l'aurait prescrit tout de suite et ne m'aurait pas envoyé me faire opérer !
+
+</p></div>
+<hr>
+</div>
+                    <div class=commit-text>
+                        <div class=photo><img style="border-radius: 50%;
+    border: 3px solid #0c8040;
+    max-width: 100%;
+    width: 79px;" src="./img/commit_12.jpg" class=photo-people ></div>
+                        <div class=com-txt><b>
+                          خلود</b>
+                            <br><p style="  margin-top: 0; margin-bottom: 0;  margin-top: 5px;
+margin-bottom: 23px;
+padding-right: 29px;" id="comm">
+J'ai vu ce spécialiste dans une revue médicale. Merci pour votre honnêteté!
+
+
+                            </p><br>
+                            </div>
+                            <hr>
+                          </div>
+                    <div class=commit-text>
+                        <div class=photo><img style="border-radius: 50%;
+    border: 3px solid #0c8040;
+    max-width: 100%;
+    width: 79px;" src="./img/commit_13.jpg" class=photo-people ></div>
+                        <div class=com-txt><b>منير</b><p style="  margin-top: 0; margin-bottom: 0;  margin-top: 5px;
+                          margin-bottom: 23px;
+                          padding-right: 29px; direction: rtl !important;" id="comm"> شكراً لكم! لقد لحقت بالتخفيض .</p>
+                            
+                            <img style="  margin-top: 20px;  max-width: 320px" src="./img/comm2.jpg" alt="">
+                        </div>
+                        <hr>
+
+                    </div>
+                    <div class=commit-text>
+                        <div class=photo><img style="border-radius: 50%;
+    border: 3px solid #0c8040;
+    max-width: 100%;
+    width: 79px;" src="./img/commit_15.jpg" class=photo-people ></div>
+                        <div class=com-txt><b>اسامة</b>
+                            <br><p style="  margin-top: 0; margin-bottom: 0;  margin-top: 5px;
+margin-bottom: 23px;
+padding-right: 29px;direction: rtl !important;" id="comm">
+                             أنا أعمل طوال اليوم على الكمبيوتر و لذلك نظري ضعف كثيراً مؤخراً و لكن بعد إستخدامي لهذا المكمل الغذائي حقاً أشعر بتحسن كبير شكراً لكم و أنصح الجميع به ! 
+
+                            </p>
+                            <img style="max-width: 320px" src="./img/comm4.jpg" alt="">
+
+                            </div>
+                            <hr>
+                          </div>
+                    <div class=commit-text>
+                        <div class=photo><img style="border-radius: 50%;
+    border: 3px solid #0c8040;
+    max-width: 100%;
+    width: 79px;direction: rtl !important;" src="./img/commit_17.jpg" class=photo-people ></div>
+                        <div class=com-txt><b> صباح</b>
+                            <br><p style="  margin-top: 0; margin-bottom: 0;  margin-top: 5px;
+margin-bottom: 23px;
+padding-right: 29px;" id="comm">
+لقد طلبته لأمي  لانها تعاني من إعتام عدسة العين و النتيجة كانت مذهلة ! شكراً لكم ! 
+</p></div>
+          <!-- comments -->
+          <!---->
+          </div></div></section>
+</div>
+</div></div></div></div>
+	
+<div id="footer">
+    <div></div>
+
+  <div>
+	<p>تعرف علينا</p>
+	<a href="#forma">تعرف علينا  </a>
+	<a href="#forma">بيان </a>
+</div>
+
+
+  <div>
+	<p>تواصل معنا</p>
+	<a href="#forma">اتصل بنا عبر </a>
+	<a href="#forma">معلومات الاتصال</a>
+
+	<!-- <a href="tel:+213982420323" aria-label="Call"><icon class="ng-fa-icon" type="fas,phone"><svg role="img" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone" class="svg-inline--fa fa-phone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"></path></svg></icon><span class="hide_mobile">+213982420323</span></a> -->
+</div>
+
+
+<div class="logo">
+	<a style="padding: 10px;" href="#forma">
+		مشاكل العيون 
+	</a>
+	<p>كل الحقوق محفوظة 2023 ©</p>
+	<p>الجزائر</p>
+</div>
+</div>
+	<go-top _nghost-qxv-c8="" class="show"><svg _ngcontent-qxv-c8="" height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path _ngcontent-qxv-c8="" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path _ngcontent-qxv-c8="" d="M0 0h24v24H0z" fill="none"></path></svg></go-top>
+</div><!----></web-page><!---->
+
+<script src="./أوميغا 3 - بيوماكس_files/jquery.min.js.download"></script>
+
+</body></html>

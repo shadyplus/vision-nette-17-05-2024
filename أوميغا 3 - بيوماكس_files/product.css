@@ -1,0 +1,58 @@
+#content img{
+	max-width:100%;
+}
+/**/
+image-gallery{
+	float:left;
+	width:100%;
+	height: 500px;
+	border:solid 1px #eee;
+	margin: 0px 10px 10px 0px;
+	background:#fff;
+	box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.8);
+	transition: 0.3s;
+}
+[dir=ltr] image-gallery{
+	float:right;
+	margin: 0px 0px 10px 10px;
+}
+@media only screen and (min-width: 701px){
+	image-gallery{
+    	width: 400px;
+    	height: 400px;
+	}
+}
+@media only screen and (min-width: 1000px){
+	image-gallery{
+    	width: 500px;
+    	height: 500px;
+	}
+}
+/**/
+.product_description h1, .product_description h2 {
+    text-align: inherit;
+}
+
+/**/
+.product_composition{
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    clear: both;
+}
+.product_composition table{
+	text-align: center;
+	border-collapse: collapse;
+	margin: auto;
+	box-shadow: 0px 3px 7px rgba(128, 128, 128, 0.7);
+	display: inline-block;
+    overflow: auto;
+}
+.product_composition table td,.product_composition table th{
+	border: 1px solid #cccccc;
+	padding: 10px;
+}
+.product_composition table tr:nth-child(even) td{
+	background: #EBEBEB;
+}
+
